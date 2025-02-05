@@ -28,14 +28,6 @@ public class TestGreeter {
   }
 
   
-  @Test
-  public void IntentionallyFail() {
-    // String someone = "World";
-
-    // assertThat(greeter.greet(someone), containsString(someone));
-    assertTrue(true);
-  }
-  
 
   @Test
   public void greetShouldIncludeGreetingPhrase() {
